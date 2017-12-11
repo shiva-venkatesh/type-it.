@@ -4,8 +4,7 @@ import './text-container.css'
 
 const TextContainer = ({content}) => {
   return(
-      <div className="container">
-      
+      <div className="text-container">
         {content}
       </div>
     )

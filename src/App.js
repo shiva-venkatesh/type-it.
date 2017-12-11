@@ -4,6 +4,7 @@ import './App.css'
 
 import { Container, Header } from 'semantic-ui-react'
 import TextContainer from './components/text-container.js'
+import InputBox from './components/input-box.js'
 
 class App extends Component {
   constructor(props) {
@@ -46,6 +47,9 @@ class App extends Component {
             A game to measure your typing speed.
           </p>
           <TextContainer content={this.state.content} />
+          <div className="typing-box">
+            <InputBox changeHandler={(e, data) => { console.log('Handled change : ' + e.key) }} />
+          </div>
         </Container>
       </div>
     );
