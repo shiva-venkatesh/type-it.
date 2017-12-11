@@ -13,6 +13,10 @@
   color: white;
 }
 
+.App-intro {
+  padding-top: 25px;
+}
+
 .App-title {
   font-size: 1.5em;
 }
@@ -21,4 +25,17 @@
   display: flex;
   margin-top: 20px;
   justify-content: center;
+}
+
+.word-count {
+  margin-top: 25px;
+  border: 2px solid gray;
+}
+
+.hide {
+  display: none;
+}
+
+.start-button-block {
+  margin-top: 25px;
 }
